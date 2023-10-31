@@ -105,6 +105,22 @@ header > .container {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
+.nav-item-first::after {
+  content: "";
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+}
+.nav-item-first {
+  margin-bottom: 20px;
+}
+.nav-item-first:active {
+  color: #404bbf;
+}
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #404bbf;
@@ -300,16 +316,16 @@ header > .container {
 }
 .portfolio-list-item {
   background-color: #ffffff;
-  /* position: relative; */
+  position: relative;
+  overflow: hidden;
 }
 .portfolio-list-photo {
-  position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
-/* .overlay {
+.overlay {
   position: absolute;
-   top: 0;
-  left: 0; 
+  top: 0;
+  left: 0;
   background-color: #4d5ae5;
   width: 360px;
   height: 300px;
@@ -317,8 +333,14 @@ header > .container {
   overflow: auto;
   transform: translateY(100%);
   transition: transform 250ms linear;
-} */
-.portfolio-list-photo:hover .overlay-text {
+  color: #f4f4fd;
+  /* line-height: 1.5;
+  letter-spacing: 0.02em; */
+  padding: 40px 32px 164px;
+  overflow: hidden;
+}
+
+.portfolio-list-item:hover .overlay {
   transform: translateY(0%);
 }
 .overlay-text {
@@ -330,7 +352,7 @@ header > .container {
   height: 300px;
   flex-shrink: 0;
   overflow: auto;
-  /* transform: translateY(100%); */
+  transform: translateY(100%);
   transition: transform 250ms linear;
   color: #f4f4fd;
   line-height: 1.5;
