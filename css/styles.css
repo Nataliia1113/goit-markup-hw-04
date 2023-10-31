@@ -40,12 +40,14 @@ ol {
 img {
   display: block;
 }
+header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .page-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
   box-sizing: border-box;
@@ -414,14 +416,11 @@ header > .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-
-  text-align: justify;
-  /* align-items: flex-start; */
 }
 .footer-icons > .social-list-items {
   display: flex;
   justify-content: center;
-  column-gap: 16px;
+  gap: 16px;
 }
 
 .social-list-icon {
