@@ -470,7 +470,6 @@ header > .container {
   gap: 24px;
 }
 
-
 /* .footer-form-label {
   color: #ffffff;
   
@@ -481,23 +480,23 @@ header > .container {
 .footer-form-input {
   width: 264px;
   height: 40px;
- 
+
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   /* background-color: #2e2f42; */
   margin: 0 24px auto 80px;
   background-color: transparent;
   font-size: 12px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-padding-left: 16px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
 }
-input::placeholder {
+/* input::placeholder {
  color #ffffff;
-}
+} */
 .footer-form-button {
   color: #ffffff;
   text-align: center;
@@ -508,14 +507,15 @@ input::placeholder {
   border-radius: 4px;
   background: #4d5ae5;
   min-width: 165px;
-  height: 40px; 
-  display: flex; 
-  justify-content: center; 
-align-items: center;
-border: none; 
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
-.social-list-item-send{
- margin-left: 16px; }
+.social-list-item-send {
+  margin-left: 16px;
+}
 /* backdrop */
 .backdrop {
   position: fixed;
@@ -526,7 +526,8 @@ border: none;
   height: 100%;
   /* background-color: rgba(0, 0, 0, 0.7); */
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -549,9 +550,10 @@ border: none;
   border-radius: 4px;
   background-color: #fcfcfc;
   padding: 72px 24px 24px;
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  }
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-close-btn {
   position: absolute;
   top: 24px;
@@ -561,7 +563,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0px;
   line-height: 0;
   background-color: #e7e9fc;
-
 }
 .modal-close-btn-icon {
   display: flex;
@@ -601,7 +602,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 34px;
   font-size: 12px;
   font-weight: 400;
-   line-height: 1.17;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
@@ -613,8 +614,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-left: 38px;
   outline-color: transparent;
   outline-offset: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  background-color: transparent; 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
 }
 .review-form-field-icon {
   position: absolute;
@@ -626,7 +627,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 .review-form-field:focus {
@@ -651,9 +652,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
- transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   background-color: transparent; 
-   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
 }
 .review-form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
@@ -678,7 +679,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   fill: transparent;
   margin-right: 8px;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-checkbox-label {
   color: #8e8f99;
@@ -711,7 +714,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-botton {
- display: block; 
+  display: block;
   padding: 16px 32px;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -725,7 +728,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.04em;
   margin: 0 auto;
   min-width: 169px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-botton:focus {
   outline: 1px solid #404bbf;
