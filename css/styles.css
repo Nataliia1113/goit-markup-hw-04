@@ -572,7 +572,7 @@ header > .container {
 /* .modal-close-btn-icon {
   display: flex;
 
-  position: relative;
+  
 
 }
 .modal-btn-icon {
@@ -597,6 +597,7 @@ header > .container {
 }
 .review-form-field-label {
   display: block;
+  position: relative;
   color: #8e8f99;
   width: 34px;
   font-size: 12px;
