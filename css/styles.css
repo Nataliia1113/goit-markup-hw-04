@@ -517,7 +517,7 @@ header > .container {
   margin-left: 16px;
 }
 /* backdrop */
-.container {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -531,7 +531,7 @@ header > .container {
   visibility: hidden;
   pointer-events: none;
 }
-.is-open {
+.backdrop .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
