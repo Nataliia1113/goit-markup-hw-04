@@ -531,7 +531,7 @@ header > .container {
   visibility: hidden;
   pointer-events: none;
 }
-.backdrop.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -569,15 +569,6 @@ header > .container {
   justify-content: center;
   stroke: #2e2f42;
 }
-/* .modal-close-btn-icon {
-  display: flex;
-
-  
-
-}
-.modal-btn-icon {
-  padding: 8px;
-}*/
 .modal-close-btn:active {
   fill: #ffffff;
   background-color: #404bbf;
