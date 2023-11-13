@@ -517,7 +517,7 @@ header > .container {
   margin-left: 16px;
 }
 /* backdrop */
-.backdrop {
+.container {
   position: fixed;
   top: 0;
   left: 0;
