@@ -596,6 +596,9 @@ header > .container {
 .review-form-field-wrapper {
   margin-bottom: 16px;
 }
+.form-field-wrapper {
+  margin-bottom: 8px;
+}
 .review-form-field-label {
   display: block;
   position: relative;
